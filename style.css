@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.nav{
+    height: 60px;
+    background-color: #004234;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo-png{
+    height: 59px;
+    width: 100%;
+    background-image: url(./Accets/amazon_logo.png);
+    background-size: cover;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+/* border 2 */
+.nav-1para{
+    font-size: 0.75rem;
+    margin-left: 20px;
+    color: #cccccc;
+}
+.nav-2para{
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+.add-coun{
+    display: flex ;
+    height: 100%;
+}
+/* box 3  */
+.nav-search{
+    height: 40px;
+    width: 600px;
+    display: flex;
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; */
+    border-radius: 5px;
+    justify-content: space-evenly;
+    border: 3px solid transparent;
+}
+.sec-opt{
+    width: 50px;
+    text-align:center;
+    background-color: #e6e6e6;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.sec-input{
+    width:100%;
+    border:none;
+    font-size: 1rem;
+}
+.nav-search i{
+    width:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5137e;
+    font-size: 1.2rem;
+}
+.nav-search:hover{
+    border: 3px solid #c5137e;
+}
+/* box 4 & 5*/
+
+span{
+    font-size:0.70rem;
+}
+.sign-para2{
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+/* box 6 */
+.nav-cart{
+    display: flex;
+    align-items: center ;
+    height: 100%;
+}
+.nav-cart i {
+    font-size: 1.5rem;
+}
+.cart-para{
+    font-size: 0.75rem;
+}
+/* penal bar */
+.penal{
+    background-color: #085749;
+    color:white;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.penal-bar{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 2%;
+}
+.penal-bar i {
+    font-size: 1rem;
+}
+.penal-option{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45%;
+    font-size: 0.90rem;
+}
+.main-banner{
+    background-image: url("./Accets/amazon-banner2.jpg");
+    background-size:cover;
+    height:300px;
+}
+/* shopping section */
+.main-shoping{
+    background-color: rgba(183, 26, 43,0.93);
+}
+.shoping-box-container{
+       display: flex;
+       flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.boxes{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding: 20px 10px;
+    height: 400px;
+    width: 23%;
+    background-color: white
+}
+.image-container{
+        display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 75px;
+}
+.image-container img{
+    width: 48%;
+    /* height: 50%; */
+    cursor: pointer;
+    margin-top: 40px;
+}
+.one-image-container{
+    width: 90%;
+    height: 80%;
+    background-size:cover ;
+}
+.link a {
+    margin-left: 20px ;
+    margin-bottom: 60px;
+    color:#2162a1;
+    text-decoration: none;    
+}
+/* footer */
+.section-one{
+    background-color: #37475a;
+    height: 60px;
+    text-align: center;
+    font-size:0.85rem;
+    padding-top: 23px;    
+}
+.section-one a{
+    color: white;
+    text-decoration: none;
+}
+.section-two{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232f3e ;
+    color: white;
+    padding: 30px 0px;
+}
+.section-two a{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.section-two p{
+    padding-top: 15px;
+    font-size: 0.80rem;
+    cursor: pointer;
+}
+.section-three{
+    background-color:#232f3e;
+    color: white;
+    border-top: 0.3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-logo{
+    height: 50px;
+    width: 120px;
+    background-image: url(./Accets/amazon_logo.png);
+    background-size: cover;
+    cursor: pointer;
+}
+.last-boxes{
+    border: 1px solid white;
+    padding: 10px 25px;
+    width: 200px;
+    font-size: 0.90rem;
+    margin: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.last-boxes i{
+    position: absolute;
+    left:10px;
+}
+.last-boxes p{
+    padding-left:20px; 
+}
+.section-fore{
+    height: 90px;
+    background-color:#131a22;
+    color: white;
+    text-align: center;
+    font-size: 0.80rem;
+}
+.section-fore .info{
+    padding: 20px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+.info p{
+    padding-left: 25px;
+}
